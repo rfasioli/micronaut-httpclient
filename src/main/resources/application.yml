@@ -1,8 +1,14 @@
 micronaut:
   application:
     name: httpclient
+
 #tag::githubconfig[]
 github:
   organization: micronaut-projects
   repo: micronaut-core
 #end::githubconfig[]
+
+endpoints:
+  info:
+    enabled: true
+    sensitive: false
